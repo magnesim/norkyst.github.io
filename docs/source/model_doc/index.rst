@@ -410,8 +410,7 @@ pre-processed before the simulation begins.
    * - Full ROMS model code (Zenodo)
      - `doi:10.5281/zenodo.17046086 <https://doi.org/10.5281/zenodo.17046086>`_
 
-
-Ongoing developments
+Ongoing activities
 ~~~~~~~~~~~~~~~~~~~~~
 
 The Norkyst modeling system is under active development. Current and planned activities
@@ -446,3 +445,38 @@ include the following:
    Although the Norwegian coast is largely ice-free, work is underway to evaluate the
    suitability of a sea ice model recently integrated with the ROMS version used in
    Norkyst, targeting occasional winter ice formation in sheltered fjords.
+
+Upcoming changes
+~~~~~~~~~~~~~~~~
+
+
+Changes Log
+~~~~~~~~~~~~
+
+.. list-table::
+   :header-rows: 1
+
+   * - Number
+     - Date
+     - Type
+     - Summary
+     - Impact
+     - Resp.
+     - Status
+     - Change report
+   * - Value 1
+     - Value 2
+     - Value 3
+     - Value 4
+     - Value 5
+     - Value 6
+     - Value 7
+     - Value 8
+   * - Value 9
+     - Value 10
+     - Value 11
+     - Value 12
+     - Value 13
+     - Value 14
+     - Value 15
+     - Value 16
