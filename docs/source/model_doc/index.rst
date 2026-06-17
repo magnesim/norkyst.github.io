@@ -464,12 +464,12 @@ Changes Log
      - Resp.
      - Status
      - Change report
-   * - Value 1
-     - Value 2
-     - Value 3
-     - Value 4
-     - Value 5
-     - Value 6
+   * - 2026-001
+     - 2026-01-01
+     - Code update
+     - Added new parameterisation for river temperature based on latitude and fjord index.
+     - Improved model
+     - 
      - Value 7
      - Value 8
    * - Value 9
