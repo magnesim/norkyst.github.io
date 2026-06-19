@@ -462,7 +462,7 @@ Upcoming changes
 
 
 
-Changes Log
+Change Log
 ~~~~~~~~~~~~
 
 .. list-table::
@@ -480,7 +480,7 @@ Changes Log
        * Sulafjorden twoway nested 
        * Oslofjorden twoway nested
      - River temperature in Glomma, Drammenselva, Numedalslågen, Skienselva and Tovdalselva corrected according to NVE observations in river input file
-     - Improved sea surface temperature near river outlets for some of the major rivers in south-easter Norway
+     - Improved sea surface temperature near river outlets for some of the major rivers in south-eastern Norway
 
    * - 2026-05-27
      - Model upgrade
