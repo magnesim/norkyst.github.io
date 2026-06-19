@@ -456,27 +456,22 @@ Changes Log
 .. list-table::
    :header-rows: 1
 
-   * - Number
-     - Date
+   * - Date
      - Type
+     - Affected members
      - Summary
      - Impact
-     - Resp.
-     - Status
-     - Change report
-   * - 2026-001
-     - 2026-01-01
+     - More information
+
+   * - 2026-01-01
      - Code update
+     - 
      - Added new parameterisation for river temperature based on latitude and fjord index.
      - Improved model
      - 
-     - Value 7
-     - Value 8
+
    * - Value 9
      - Value 10
      - Value 11
      - Value 12
      - Value 13
-     - Value 14
-     - Value 15
-     - Value 16
