@@ -448,6 +448,18 @@ include the following:
 
 Upcoming changes
 ~~~~~~~~~~~~~~~~
+.. list-table::
+   :header-rows: 1
+
+   * - Date 
+     - Summary
+     - Required actions
+
+   * - 2026-11-00
+     - 
+     - None
+
+
 
 
 Changes Log
@@ -461,17 +473,59 @@ Changes Log
      - Affected members
      - Summary
      - Impact
-     - More information
 
-   * - 2026-01-01
-     - Code update
-     - 
-     - Added new parameterisation for river temperature based on latitude and fjord index.
-     - Improved model
-     - 
+   * - 2026-06-09
+     -  Model upgrade
+     - * Control 
+       * Sulafjorden twoway nested 
+       * Oslofjorden twoway nested
+     - River temperature in Glomma, Drammenselva, Numedalslågen, Skienselva and Tovdalselva corrected according to NVE observations in river input file
+     - Improved sea surface temperature near river outlets for some of the major rivers in south-easter Norway
 
-   * - Value 9
-     - Value 10
-     - Value 11
-     - Value 12
-     - Value 13
+   * - 2026-05-27
+     - Model upgrade
+     - * Control 
+       * Sulafjorden twoway nested 
+       * Oslofjorden twoway nested
+     - * Enable WIND_MINUS_CURRENT cpp flag
+     - Improved surface currents and hydrography
+
+   * - 2026-04-16
+     - Bugfix
+     - * Oslofjorden twoway nested
+     - Reset unrealistically high salinity values in deep basins of Oslofjorden
+     - Improved hydrography at depths
+   
+   * - 2026-03-17
+     - * Technical upgrade
+       * Model upgrade
+     - * Control 
+       * Sulafjorden twoway nested 
+       * Oslofjorden twoway nested
+     - * Move production to new HPC facilities
+       * Upgrade model code to ROMS-4.3 (git revision b335132)
+       * Compile and run with parallel-IO
+     - New code base may affect the results. 
+   
+   * - 2026-03-03 
+     - Bugfix
+     - * Control 
+       * Sulafjorden twoway nested 
+       * Oslofjorden twoway nested
+     - Update the 2N2 tide component
+     - Improved tidal forcing
+
+   * - 2025-10-13
+     - Model upgrade
+     - * Control 
+       * Sulafjorden twoway nested 
+       * Oslofjorden twoway nested
+     - Change river input from EHYPE to GLOFAS for rivers outside Norway
+     - Changed river freshwater input
+   
+   * - 2025-10-07
+     - Model upgrade
+     - * Control
+     - Start nudging of salinity and temperature fields towards assimilating model at 2.4km resolution
+     - Improved hydrography 
+
